@@ -1,5 +1,3 @@
-Line Etot JS
-
 # require node >= v8.x.x
 check your nodejs version
 `node -v`
