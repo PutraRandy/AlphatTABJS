@@ -1,7 +1,7 @@
 {
-  "name": "linenetnotjs",
+  "name": "alphatTABJS",
   "version": "0.2.1",
-  "description": "LineNetnot JS",
+  "description": "LineAlphatJS old version.",
   "main": "./library/main.js",
   "scripts": {
     "start": "npm run bot",
@@ -9,11 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rivaimunte/LineNetnotJS.git"
+    "url": "https://github.com/cornysyz/AlphatTABJS.git"
   },
   "author": {
-    "name": "rivaimunte",
-    "email": "rivaimunthe02@gmail.com"
+    "name": "Alfath Dirk"
   },
   "license": "MIT",
   "devDependencies": {
