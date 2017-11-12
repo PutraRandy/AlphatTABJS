@@ -207,14 +207,10 @@ if(operation.type == 13) { // diinvite
             })
         }
 	
-        if(txt === 'kickall' && this.stateStatus.kick == 1 && isAdminOrBot(seq.from)) {
-            let { listMember } = await this.searchGroup(seq.to);
-            for (var i = 0; i < listMember.length; i++) {
-                if(!isAdminOrBot(listMember[i].mid)){
-                    this._kickMember(seq.to,[listMember[i].mid])
-                }
-            }
-        }
+	
+               
+           
+  
 
         if(txt == 'setpoint') {
             this._sendMessage(seq, `setpoint for check reader .`);
